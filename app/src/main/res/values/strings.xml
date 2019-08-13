@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movies List</string>
+    <string name="error_occured">Error Occured</string>
+    <string name="error_connection">Connection error</string>
+</resources>

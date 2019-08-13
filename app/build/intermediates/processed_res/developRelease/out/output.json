@@ -1,0 +1,1 @@
+[{"outputType":{"type":"PROCESSED_RES"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"app-develop-release.apk","fullName":"developRelease","baseName":"develop-release","dirName":""},"path":"resources-developRelease.ap_","properties":{"packageId":"com.dev.movieslist","split":"","minSdkVersion":"21"}}]

@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dev.movieslist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:4:5-13:19
+12        android:name="com.develop.mygarage.app.App"
+12-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:5:9-52
+13        android:allowBackup="true"
+13-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:6:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:22:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:10:9-35
+20        android:theme="@style/AppTheme" >
+20-->/Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:11:9-40
+21        <provider
+21-->[com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+22            android:name="com.squareup.picasso.PicassoProvider"
+22-->[com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+23            android:authorities="com.dev.movieslist.com.squareup.picasso"
+23-->[com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+24            android:exported="false" />
+24-->[com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+25    </application>
+26
+27</manifest>
