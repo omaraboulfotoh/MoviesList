@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.dev.movieslist.R
 import com.dev.movieslist.adapter.MoviesAdapter
 import com.dev.movieslist.data.entitiy.Status
-import com.dev.movieslist.utils.helpers.OnItemClickListener
+import com.dev.movieslist.widgets.OnItemClickListener
 import com.dev.movieslist.viewmodel.MoviesViewModel
 import com.dev.movieslist.widgets.PaginationScrollListener
 import kotlinx.android.synthetic.main.activity_main.*

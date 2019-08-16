@@ -2,7 +2,7 @@ package com.dev.movieslist.base
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.dev.movieslist.utils.helpers.OnItemClickListener
+import com.dev.movieslist.widgets.OnItemClickListener
 
 
 open class BaseRecyclerViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
