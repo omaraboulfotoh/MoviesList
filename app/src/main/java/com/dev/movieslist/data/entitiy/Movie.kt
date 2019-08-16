@@ -6,6 +6,7 @@ import java.io.Serializable
 class Movie(
     val id: String = "",
     val title: String = "",
+    val tagline: String = "",
     val overview: String = "",
     val popularity: Double = 0.0,
     @SerializedName("vote_average") val voteAverage: Float = 0f,

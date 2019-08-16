@@ -62,4 +62,10 @@ abstract class BaseActivity : AppCompatActivity(), BaseView {
     override fun showNoConnection() {
         makeToast(getString(R.string.error_connection))
     }
+
+    override fun showProgress() {
+    }
+
+    override fun hideProgress() {
+    }
 }

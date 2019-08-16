@@ -19,6 +19,7 @@ class MainActivity : BaseActivity(), OnItemClickListener {
     private lateinit var mAdapter: MoviesAdapter
     var loading = true
     var lastPage = false
+
     override fun getContentView() = R.layout.activity_main
 
     override fun create(bundle: Bundle?) {
@@ -66,7 +67,9 @@ class MainActivity : BaseActivity(), OnItemClickListener {
             })
     }
 
-    override fun onItemClick(view: View?, position: Int) {}
+    override fun onItemClick(view: View?, position: Int) {
+        MovieDetailsActivity.start(this, mAdapter.data[position])
+    }
 
     override fun showProgress() {
         mAdapter.showProgess()

@@ -1,7 +1,10 @@
 package com.dev.movieslist.app
 
+import android.graphics.Color
+
 /** The base URL of the API */
 
+public val ColorPrimary: Int = Color.parseColor("#008577")
 
 class API {
     companion object {
@@ -15,9 +18,9 @@ class API {
         companion object {
             const val MOVIE = "movie"
             const val POPULAR = "$MOVIE/popular"
+            const val MOVIE_DETAILS = "$MOVIE/{id}"
             const val IMAGES_URL = "https://image.tmdb.org/t/p/original"
         }
     }
-
 
 }

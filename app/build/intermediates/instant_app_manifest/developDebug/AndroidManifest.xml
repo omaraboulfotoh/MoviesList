@@ -23,6 +23,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.dev.movieslist.view.activity.MovieDetailsActivity" />
         <activity android:name="com.dev.movieslist.view.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

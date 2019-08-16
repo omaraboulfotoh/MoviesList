@@ -17,4 +17,5 @@ class MoviesInteractor : BasePageInteractor<Response<BaseResponse<ArrayList<Movi
         retrofit.create(ApiService.Movies::class.java)
             .getMoviesList(API.API_KEY, page)
             .compose(compose())!!
+
 }
