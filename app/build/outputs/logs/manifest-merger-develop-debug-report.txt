@@ -1,23 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha05] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/7f640306f23430950ab3d238e572009f/databinding-adapters-3.6.0-alpha05/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha05] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/07a42dc6d5d3b1c6e0b2241609b5382a/databinding-runtime-3.6.0-alpha05/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bd1982a0bcde719f581175b12a9c02c7/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [org.koin:koin-android-viewmodel:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4e20413a555d51f3251bd30400c84e56/jetified-koin-android-viewmodel-2.0.0-rc-1/AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-scope:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/36c7ecbff5800c949ea377436a1a85cf/jetified-koin-android-scope-2.0.0-rc-1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/fe1dabaf640da0fd07c6bd997597e712/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bc52449546087fc63e037d21fb3d1b2d/core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/576733b165df8c002e8f15aee2feebaf/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/52891e262fd0e8085b1600eeb0615d8a/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/79e1da882dc2e5de07206ff02cc95b40/rxandroid-2.1.0/AndroidManifest.xml:15:1-20:12
 MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/db5b6215b945bc40a4bd672f1c6bc183/jetified-shimmer-0.4.0/AndroidManifest.xml:2:1-7:12
-MERGED from [org.koin:koin-android:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/6d8fa6596a0216bb86b5f84dca17dfd9/koin-android-1.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:viewbinding:3.6.0-alpha05] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/114a1bd836ad2082d371dd91c2054211/viewbinding-3.6.0-alpha05/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/d9f38ce0d64c7ef7e41f8f8e85abcf12/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/dc6f443516a35dbe8902119d3312cf7c/lifecycle-extensions-2.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4d231d0f3cd85ff3dcb414f736208b22/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/7540b66712c1c667dcab219cfc740bb4/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/61e87047c104697bd9ab0275f447e3e6/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -34,8 +36,11 @@ MERGED from [androidx.customview:customview:1.0.0] /Users/omaraboulfotoh/.gradle
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/afb5f555aa89e592b983e6ac3a0299d5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/3ae60ebfd0c52b144fd8ebd3765a6179/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9e6623e8155c25df901c2178c0b81237/lifecycle-service-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/1207e7e709239957222043a4eb05ad0f/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a0b3b4c6c916b488342e5a408f7d4ef7/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [org.koin:koin-android:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a139e81d7b50a745ed291a6e25330896/koin-android-2.0.0-rc-1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/412e4395fda063c81c4b9740fbe0aa1a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/6961066b6b2b27978a4c1efa830eac7c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -47,51 +52,81 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bad9d75dd2fce3e278339507bcf893d5/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9cd7cfd9bb9b0448b181d09e93d57659/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/0c116e442bef98865d5d9a486877e4c5/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
-INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:5-33
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:4:5-33
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:1-14:12
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:4:5-13:19
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4e20413a555d51f3251bd30400c84e56/jetified-koin-android-viewmodel-2.0.0-rc-1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4e20413a555d51f3251bd30400c84e56/jetified-koin-android-viewmodel-2.0.0-rc-1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/36c7ecbff5800c949ea377436a1a85cf/jetified-koin-android-scope-2.0.0-rc-1/AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/36c7ecbff5800c949ea377436a1a85cf/jetified-koin-android-scope-2.0.0-rc-1/AndroidManifest.xml:7:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/dc6f443516a35dbe8902119d3312cf7c/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/dc6f443516a35dbe8902119d3312cf7c/lifecycle-extensions-2.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a0b3b4c6c916b488342e5a408f7d4ef7/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a0b3b4c6c916b488342e5a408f7d4ef7/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:16:9-48
 	android:roundIcon
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:5:9-52
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:9:9-32
+activity#com.dev.movieslist.view.activity.MainActivity
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:17:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/omaraboulfotoh/Document/MoviesList/app/src/main/AndroidManifest.xml
@@ -106,24 +141,28 @@ MERGED from [com.google.android.material:material:1.0.0] /Users/omaraboulfotoh/.
 MERGED from [com.google.android.material:material:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/92827cf0eaff840928bb850c108b7bb1/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a4202d6f15313c3ef29a6f8e3652af40/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [org.koin:koin-android-viewmodel:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4e20413a555d51f3251bd30400c84e56/jetified-koin-android-viewmodel-2.0.0-rc-1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4e20413a555d51f3251bd30400c84e56/jetified-koin-android-viewmodel-2.0.0-rc-1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/36c7ecbff5800c949ea377436a1a85cf/jetified-koin-android-scope-2.0.0-rc-1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/36c7ecbff5800c949ea377436a1a85cf/jetified-koin-android-scope-2.0.0-rc-1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/fe1dabaf640da0fd07c6bd997597e712/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/fe1dabaf640da0fd07c6bd997597e712/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bc52449546087fc63e037d21fb3d1b2d/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bc52449546087fc63e037d21fb3d1b2d/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/576733b165df8c002e8f15aee2feebaf/multidex-2.0.0/AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/576733b165df8c002e8f15aee2feebaf/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/52891e262fd0e8085b1600eeb0615d8a/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/52891e262fd0e8085b1600eeb0615d8a/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/79e1da882dc2e5de07206ff02cc95b40/rxandroid-2.1.0/AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/79e1da882dc2e5de07206ff02cc95b40/rxandroid-2.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/db5b6215b945bc40a4bd672f1c6bc183/jetified-shimmer-0.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.shimmer:shimmer:0.4.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/db5b6215b945bc40a4bd672f1c6bc183/jetified-shimmer-0.4.0/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-android:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/6d8fa6596a0216bb86b5f84dca17dfd9/koin-android-1.0.2/AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-android:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/6d8fa6596a0216bb86b5f84dca17dfd9/koin-android-1.0.2/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:3.6.0-alpha05] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/114a1bd836ad2082d371dd91c2054211/viewbinding-3.6.0-alpha05/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:3.6.0-alpha05] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/114a1bd836ad2082d371dd91c2054211/viewbinding-3.6.0-alpha05/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/d9f38ce0d64c7ef7e41f8f8e85abcf12/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/d9f38ce0d64c7ef7e41f8f8e85abcf12/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/dc6f443516a35dbe8902119d3312cf7c/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/dc6f443516a35dbe8902119d3312cf7c/lifecycle-extensions-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4d231d0f3cd85ff3dcb414f736208b22/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/4d231d0f3cd85ff3dcb414f736208b22/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/7540b66712c1c667dcab219cfc740bb4/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
@@ -156,10 +195,16 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/omar
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/3ae60ebfd0c52b144fd8ebd3765a6179/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.2] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/bf0afbe9f7cbf1cfb8dff504a993abcb/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9e6623e8155c25df901c2178c0b81237/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9e6623e8155c25df901c2178c0b81237/lifecycle-service-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/1207e7e709239957222043a4eb05ad0f/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/1207e7e709239957222043a4eb05ad0f/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a0b3b4c6c916b488342e5a408f7d4ef7/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a0b3b4c6c916b488342e5a408f7d4ef7/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-android:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a139e81d7b50a745ed291a6e25330896/koin-android-2.0.0-rc-1/AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.0-rc-1] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a139e81d7b50a745ed291a6e25330896/koin-android-2.0.0-rc-1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/f8d0ad6e0f6942ad69d94664b469519a/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/412e4395fda063c81c4b9740fbe0aa1a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -200,3 +245,13 @@ ADDED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/a865a05639bd1cb59a0b5edf33aa6fbd/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] /Users/omaraboulfotoh/.gradle/caches/transforms-2/files-2.1/9d38c966070d236da82deff56a4edbaa/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79

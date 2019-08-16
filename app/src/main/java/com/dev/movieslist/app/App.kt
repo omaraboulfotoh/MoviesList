@@ -4,7 +4,11 @@ import android.app.Application
 import android.content.Context
 import androidx.multidex.MultiDex
 import com.dev.movieslist.di.applicationModule
-import org.koin.android.ext.android.startKoin
+import com.dev.movieslist.di.networkModule
+import com.dev.movieslist.di.rxModule
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
+import org.koin.core.module.Module
 
 class App : Application() {
 
@@ -21,7 +25,15 @@ class App : Application() {
         super.onCreate()
 
         // koin
-        startKoin(this, listOf(applicationModule))
+        val mModules: MutableList<Module> = mutableListOf(
+            networkModule,
+            rxModule,
+            applicationModule
+        )
+        startKoin {
+            androidContext(this@App)
+            modules(mModules)
+        }
 
     }
 
