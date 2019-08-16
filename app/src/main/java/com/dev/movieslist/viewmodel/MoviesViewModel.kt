@@ -21,12 +21,14 @@ constructor(
     fun loadLatest() {
         compositeDisposable.add(moviesInteractor
             .all(pageIndex)
-            .doOnSubscribe { response.postValue(Resource(Status.LOADING)) }
-            .doOnComplete { pageIndex++ }
+            .doOnSubscribe { if (pageIndex == 1) response.postValue(Resource(Status.LOADING)) }
+            .doOnComplete {
+                pageIndex++
+            }
             .subscribe({
                 if (it.isSuccessful) {
                     response.postValue(Resource(Status.SUCCESS, it.body()!!.results))
-                }else{
+                } else {
                     if (it is HttpException) {
                         response.postValue(
                             Resource(Status.ERROR, null, it.message())

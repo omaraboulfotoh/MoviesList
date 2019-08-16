@@ -1,6 +1,5 @@
 package com.dev.movieslist.di
 
-import android.content.Context
 import com.dev.movieslist.app.API.Companion.BASE_URL
 import com.dev.movieslist.app.API.Companion.CONNECTION_TIMEOUT_SECONDS
 import com.dev.movieslist.network.LoggingInterceptor
@@ -8,9 +7,7 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonPrimitive
 import com.google.gson.JsonSerializer
-import com.squareup.picasso.Picasso
 import okhttp3.OkHttpClient
-import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 import retrofit2.CallAdapter
 import retrofit2.Converter
@@ -24,7 +21,6 @@ import java.util.concurrent.TimeUnit
 
 val networkModule = module {
     factory { gson() }
-    factory { picasso(androidContext()) }
     factory { LoggingInterceptor() }
     factory { okHttpClient(get()) }
     factory { callFactory() }
@@ -41,12 +37,6 @@ fun gson(): Gson {
             JsonSerializer<Date> { src, _, _ -> JsonPrimitive(src?.time) })
         .create()
 }
-
-fun picasso(context: Context): Picasso {
-    return Picasso.Builder(context)
-        .build()
-}
-
 
 fun okHttpClient(loggingInterceptor: LoggingInterceptor): OkHttpClient {
     return OkHttpClient.Builder()

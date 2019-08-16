@@ -60,6 +60,12 @@ android {
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+repositories {
+    mavenCentral()
 }
 
 dependencies {
@@ -90,10 +96,9 @@ dependencies {
     // Lifecycle components
     implementation 'androidx.lifecycle:lifecycle-common-java8:2.0.0'
     // image loader
-    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation("io.coil-kt:coil:0.6.0")
     // facebook shimmer
     implementation 'com.facebook.shimmer:shimmer:0.4.0'
-    //koin
     //Koin
     implementation "org.koin:koin-android-viewmodel:$koin_version"
     implementation "org.koin:koin-java:$koin_version"

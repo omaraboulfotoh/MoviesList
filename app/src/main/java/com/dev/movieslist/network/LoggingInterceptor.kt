@@ -116,7 +116,7 @@ class LoggingInterceptor : Interceptor {
 
             if (!isPlaintext(buffer)) {
                 Log.i(TAG, "")
-                Log.i(TAG, "<-- END HTTP (binary " + buffer.size() + "-byte body omitted)")
+                Log.i(TAG, "<-- END HTTP (binary " + buffer.size + "-byte body omitted)")
                 return response
             }
 
@@ -125,7 +125,7 @@ class LoggingInterceptor : Interceptor {
                 Log.i(TAG, buffer.clone().readString(charset!!))
             }
 
-            Log.i(TAG, "<-- END HTTP (" + buffer.size() + "-byte body)")
+            Log.i(TAG, "<-- END HTTP (" + buffer.size + "-byte body)")
         }
 
         return response
@@ -148,7 +148,7 @@ class LoggingInterceptor : Interceptor {
         internal fun isPlaintext(buffer: Buffer): Boolean {
             try {
                 val prefix = Buffer()
-                val byteCount = if (buffer.size() < 64) buffer.size() else 64
+                val byteCount = if (buffer.size < 64) buffer.size else 64
                 buffer.copyTo(prefix, 0, byteCount)
                 for (i in 0..15) {
                     if (prefix.exhausted()) {

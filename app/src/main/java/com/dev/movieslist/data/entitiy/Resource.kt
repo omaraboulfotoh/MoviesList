@@ -1,8 +1,6 @@
 package com.dev.movieslist.data.entitiy
 
 
-
-
 data class Resource<out T>
 constructor(val status: Status, val data: T? = null, val message: String? = "") {
     companion object {
@@ -16,6 +14,10 @@ constructor(val status: Status, val data: T? = null, val message: String? = "") 
 
         fun <T> loading(data: T?): Resource<T> {
             return Resource(Status.LOADING, data, null)
+        }
+
+        fun <T> hideLoadings(data: T?): Resource<T> {
+            return Resource(Status.HIDE_LOADING, data, null)
         }
     }
 }

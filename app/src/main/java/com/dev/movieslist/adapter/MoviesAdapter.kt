@@ -3,18 +3,20 @@ package com.dev.movieslist.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import coil.api.load
+import coil.transform.RoundedCornersTransformation
 import com.dev.movieslist.R
 import com.dev.movieslist.app.API.Movies.Companion.IMAGES_URL
 import com.dev.movieslist.base.BaseRecyclerAdapter
 import com.dev.movieslist.base.BaseRecyclerViewHolder
 import com.dev.movieslist.data.entitiy.Movie
 import com.dev.movieslist.databinding.ItemMovieBinding
-import com.dev.movieslist.widgets.RoundedCornersTransformation
 import com.develop.mygarage.base.ProgressViewHolder
-import com.squareup.picasso.Picasso
 
 class MoviesAdapter(movies: ArrayList<Movie>) : BaseRecyclerAdapter<Movie>(movies) {
 
+
+    private var isProgress: Boolean = false
 
     companion object {
         const val ITEM_NORMAL = 0
@@ -55,14 +57,12 @@ class MoviesAdapter(movies: ArrayList<Movie>) : BaseRecyclerAdapter<Movie>(movie
         fun bind(movie: Movie) {
             binding.movie = movie
             binding.executePendingBindings()
-            val radius = 20
-            val margin = 5
-            val transformation = RoundedCornersTransformation(
-                radius,
-                margin
-            )
-            Picasso.get().load(IMAGES_URL + movie.posterPath).transform(transformation)
-                .into(binding.ivMovieImg)
+
+            binding.ivMovieImg.load(IMAGES_URL + movie.posterPath) {
+                crossfade(true)
+                placeholder(R.drawable.img_placeholder)
+                transformations(RoundedCornersTransformation(20f))
+            }
         }
     }
 
@@ -70,14 +70,17 @@ class MoviesAdapter(movies: ArrayList<Movie>) : BaseRecyclerAdapter<Movie>(movie
         data.add(Movie())
         data.add(Movie())
         data.add(Movie())
+        data.add(Movie())
+        data.add(Movie())
+        data.add(Movie())
+        isProgress = true
         notifyDataSetChanged()
     }
 
     fun hidePrgress() {
-        if (data.size > 0) {
-            data.removeAt(data.size - 1)
-            data.removeAt(data.size - 1)
-            data.removeAt(data.size - 1)
+        if (isProgress) {
+            isProgress = false
+            data.clear()
             notifyDataSetChanged()
         }
     }
